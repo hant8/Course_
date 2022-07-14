@@ -1,0 +1,12 @@
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+.gray{
+    color:rgb(212, 221, 226);
+}
+table{
+    border: 3px solid red;
+}
