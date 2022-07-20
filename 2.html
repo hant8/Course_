@@ -6,53 +6,56 @@
     <title>Тестовая страница</title>
     <link rel="stylesheet" href="css.css">
 </head>
+<body>
+    Я пишу текст для окна браузера, например  Google Chrome.
+    <h1>Этот заголовок H1</h1>
+    <h2 >Этот заголовок H2</h2>
+    <p id="ideveloper" class="red bold">Текст внутри <br> тега p</p>
+    <p><b class="red">Текст жирный</b></p>
+    <p><em class="red">Текст курсивом</em></p>
+    <a class="blue" href="https://www.youtube.com/watch?v=GoBvYPwv-g8" target="_blank">Ролик на YouTube</a>
+    <br>
+    <a class="blue" href="#ideveloper">Якорь на параграф ideveloper</a> 
 
-<h2>Заголовок </h2>
-
-<p class="red">
-    <b>Текст внутри</b><br>
-    <b>тега p</b>
-</p>
-<p>
-    <b class="red">
-        Жирный текст
-    </b>
-</p>
-<p>
-    <i class="red">
-        Курсив
-    </i>
-    <br><br>
-    <a href="" class="blue">Ролик на YouTube</a><br>
-    <a href="" class="blue">Якорь на параграф idveloper</a><br>
-    <ul class="blue">
-        <li>Первый элемент</li>
-        <li>Второй элемент</li>
-        <li><a href="">Yandex</a> ссылка на главнаю страницу</li>
-        <ul class="red">
-            <li>Второй уровень</li>
-            <li>Второй уровень</li>
-        </ul>
+    <ul>
+        <li class="blue">Первый элемент</li>
+        <li class="blue">Второй элемент</li>
+        <li class="blue"><a href="https://yandex.ru/" target="_blank">Yandex</a> ссылка на главную страницу
+            <ul>
+                <li class="red">Второй уровень</li>
+                <li class="red">Второй уровень</li>
+            </ul>
+        </li>
     </ul>
-</p>
 
-<hr>
-<table border="1" class="red">
-    
-    <th>Наименлвание фрукта</th>
-    <th>Кол-во</th>
-    <tr>
-        <td>Яблоко</td>
-        <td>2 <img height="100px" width="100px" src="https://thumbs.dreamstime.com/b/симво-атома-33491013.jpg"></td>
-    </tr>
-    <tr>
-        <td>Апельсин</td>
-        <td>3</td>
-    </tr>
-    <tr>
-        <td colspan="2">Итого: 5</td>
-    </tr>
-</table>
+    <br>
+    <hr>
+    <table class="tablle-red table-bold table-radius" border="1">
+        <caption>Первая таблица</caption>
+        <thead>
+            <tr>
+                <th>Наименование фрукта</th>
+                <th>Кол-во</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Яблоко</td>
+                <td><img height="100px"  width="100px" src="https://msk.globural.ru/uploadedFiles/eshopimages/icons/350x350/35_7.jpg" alt="Строение атома"></td>
+            </tr>
+            <tr>
+                <td>Апельсин</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Итого: 5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
 <input placeholder="------- ----">
 <div>
     <a href="" class="red">Первая ссылка</a><br>

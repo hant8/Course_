@@ -7,6 +7,15 @@
 .gray{
     color:rgb(212, 221, 226);
 }
+.bold{
+    font-weight: bold;
+}
 table{
     border: 3px solid red;
+}
+.table-radius{
+    border-radius: 10px;
+}
+.tablle-red{
+    color: red;
 }
