@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icon';
+  src:
+    url('fonts/icon.ttf?z037gx') format('truetype'),
+    url('fonts/icon.woff?z037gx') format('woff'),
+    url('fonts/icon.svg?z037gx#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-food:before {
+  content: "\e900";
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.icon-pot:before {
+  content: "\e901";
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.icon-broccoli:before {
+  content: "\e902";
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.icon-dinner:before {
+  content: "\e903";
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.icon-water:before {
+  content: "\e904";
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
