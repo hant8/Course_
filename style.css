@@ -1,0 +1,486 @@
+html {
+    position: relative;
+}
+html, body {
+    min-height: 100%;
+}
+body{
+    background: #ccc;
+    margin: 0;
+    padding-bottom: 100px;
+}
+main {
+    margin: auto;
+}
+
+.headar-container__center{
+    width:900px;
+    display: flex;
+    justify-content: center;
+}
+.navigation__menu{
+    display: flex;
+}
+.navigation__menu{
+    position: relative;
+}
+.navigation__item{
+    left: 0;
+    position: relative;
+}
+.contact__text{
+    padding-left: 10px;
+}
+
+
+.navigation__item.with-fast-transition:hover,.contact__phone-number:hover { 
+    color: #FF8C00;
+}
+
+.navigation__item.with-fast-transition, .contact__phone-number:hover{ 
+    transition: 2s; 
+}
+.navigation__item:after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #FF8C00;
+    height: 3px;
+    width: 0%;
+    transition: width 1s linear;
+}
+.navigation__item:hover:after{
+    width: 100%;
+}
+@keyframes scaling-1{
+    0%{transform: rotateY(0deg);}
+    20%{transform: rotateY(360deg);}
+    100%{transform: rotateY(360deg);}
+}
+
+.animate-icon-1{
+    animation-name: scaling-1;
+    animation-duration: 12.5s; 
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+}
+.animate-icon-2{
+    animation-name: scaling-1;
+    animation-duration: 12.5s; 
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+.animate-icon-3{
+    animation-name: scaling-1;
+    animation-duration: 12.5s; 
+    animation-delay: 7.5s;
+    animation-iteration-count: infinite;
+}
+.animate-icon-4{
+    animation-name: scaling-1;
+    animation-duration: 12.5s; 
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+.animate-icon-5{
+    animation-name: scaling-1;
+    animation-duration: 12.5s; 
+    animation-delay: 12.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes active-icon{
+    0%{transform: scale(1,1), rotate(0deg);}
+    100%{transform: scale(1.5,1.5) rotate(4deg);}
+}
+.animate-dinner:hover,.animate-broccoli:hover,.animate-water:hover,.animate-pot:hover,.animate-food:hover{
+    animation-name: active-icon;
+    animation-duration: 3s; 
+}
+.animate-1{
+    animation-delay: 1.5s;
+}
+.animate-2{
+    animation-delay: 2.5s;
+}
+.animate-3{
+    animation-delay: 3.5s;
+}
+.animate-4{
+    animation-delay: 4.5s;
+}
+.animate-5{
+    animation-delay: 5.5s;
+}
+
+
+
+.bz-content{
+    display: flex;
+}
+.elem{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    padding-top: 20px;
+}
+.elem__img{
+    padding: 30px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.elem__footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    padding-left: 40px;
+}
+.elem__text{
+    font-size: 20px;
+    display: block;
+    margin-top: 30px;
+    word-wrap: break-word;
+}
+.elem_icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(30, 212, 30, 0.4);
+    position: relative;
+  }
+
+
+.font-navigation{
+    height: 19px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+
+    text-align: center;
+    color: #000000;
+}
+.font-main{
+    width: 208px;
+    height: 27px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    color: #000000;
+    margin: 10px auto;
+}
+.font-number{
+    width: 185px;
+    height: 22px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+.font-number-text{
+    width: 107px;
+    height: 16px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+}
+.font-content-header{
+    
+    width: 274px;
+    height: 15px;
+    
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 104.5%;
+    
+    color: #000000;
+    margin: 20px auto;
+    
+}
+.font-card-title{
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 127%;
+
+font-feature-settings: 'kern' off;
+
+color: #000000;
+
+}
+.font-card-text-1{
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 127%;
+
+    font-feature-settings: 'kern' off;
+
+    color: #63A233;
+}
+.font-card-text-2{
+    width: 59px;
+    height: 20px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127%;
+
+
+    font-feature-settings: 'kern' off;
+
+    color: #000000;
+}
+.font-card-text-3{
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 172.5%;
+
+    color: #000000;
+}
+.font-card-button{
+    width: 219px;
+    height: 58px;
+    border-radius: 30px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+
+    color: #EF3120;
+    margin-left: 40px;
+}
+.font-content-title{
+        
+    width: 183px;
+    height: 35px;
+    margin: 30px auto;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: #000000;
+}
+.font-content-text{
+    width: 124px;
+    height: 17px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 104.5%;
+
+    color: #000000;
+}
+.font-footer-company{
+    width: 178px;
+    height: 14px;
+    
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+
+    color: black;
+
+}
+.font-footer-number{
+    width: 155px;
+    height: 22.37px;
+
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: black;
+}
+.font-footer-address{
+    width: 295px;
+    height: 17.29px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: black;
+}
+.font-footer-info{
+    width: 99px;
+    height: 14px;
+
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+
+    text-decoration-line: underline;
+
+    color: black;
+
+}
+
+
+
+.navigation__item, .navigation-footer-header__item, .footer-public__elem-email{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+.headar{
+    text-align: center;
+    padding: 30px 100px;
+    margin: auto;
+}
+.headar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo, .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.logo__text{
+    margin: 0px 0px;
+}
+.header-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.wrapper{
+    width: 1500px;
+    margin: 0px auto;
+}
+.header-main-box{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.header-main-box__name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+.header-main-button__elem{
+    
+    border-radius: 30px;
+
+    width: 241px;
+    height: 48px;
+
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+
+    align-items: center;
+    text-transform: uppercase;
+
+    color: black;
+
+}
+
+.header-main-button{
+    padding-top: 50px;
+}
+.main-content-header, .main-content-footer-header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main-content{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 150px;
+}
+.main-content-header__line, .main-content-footer-header__line{
+    width: 80px;
+    margin: 10px auto;
+}
+.main-content-card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+.main-content-card__title{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.main-content-card__number{
+    margin-left: 40px;
+    padding-top: 35px;
+}
+.main-content-card-list{
+    margin-left: 40px;
+    display: flex;
+}
+.main-content-card-list__start, .main-content-card-list__start__end{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.main-content-card-food{
+    margin-left: 15px;
+}
+.main-content-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 50px;
+}
+.main-content-footer-container__elem{
+    margin: 5px 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.footer-public{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
