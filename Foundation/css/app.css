@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+    line-height: 200%;
+}
+html{
+    font-size: 12px;
+}
+.footer, .header {
+    border: 2px solid black;
+}
+.main-card{
+    display: flex;
+}
+.sidebar-right, .sidebar-left{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+@media (max-width:1024px){
+    .sidebar-right{
+        border-top: 2px solid  black;
+    }
+    .content{
+        border-right: 2px solid  black;
+        
+    }
+    .main-card{
+        flex-flow: row wrap;
+    }
+    .card{
+        width: 50%;
+    }
+}
+@media (max-width:639.5px){
+    .content{
+        border-top: 2px solid  black;
+        border-left: 2px solid  black;
+    }
+    .card{
+        width: 100%;
+
+    }
+}
