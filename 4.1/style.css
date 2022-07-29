@@ -1,3 +1,8 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 header hr{
     width: 100px;
 }
@@ -17,6 +22,9 @@ header nav span{
 header nav{
     line-height: 45px;
 }
+.content{
+    height: 600px;
+}
 .content .elem{
     margin: 5px;
     float: left;
@@ -25,4 +33,5 @@ main{
     margin: 35px auto;
     width: 1200px;
 }
+
 
