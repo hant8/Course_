@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Тестовая страница</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="headar">
+                <img  class="headar__img" src="../img/logo.png">
+                <h2 class="headar__text">Связаться с нами</h2>
+            </header>
+            <main class="main">
+                <form class="main-form" action="" method="GET">
+                    <div class="main-form-position">
+                        <section class="main-form-box-1">
+                            <label class="main-form__elem">
+                                <input class="main-form__name" name="name" type="text" placeholder="Имя" required>
+                            </label>
+                            <label class="main-form__elem">
+                                <input class="main-form__email" name="email" type="email" placeholder="E-mail*" required>
+                            </label>
+                            <label class="main-form__elem">
+                                <select name="time" class="main-form__time">
+                                    <option selected disabled>Выбрать время звонка</option>
+                                    <option class="main-form__time-elem">10-00</option>
+                                    <option class="main-form__time-elem">11-00</option>
+                                    <option class="main-form__time-elem">12-00</option>
+                                    <option class="main-form__time-elem">13-00</option>
+                                    <option class="main-form__time-elem">14-00</option>
+                                </select>
+                            </label>
+                            <div class="radio">
+                                <div class="main-form__radio">
+                                    <input name="radio" value="1" type="radio" class="radio__input" id="radio-1"/>
+                                    <label for="radio-1" class="radio__lebel">Получать рассылку</label>
+                                </div>
+                                <div class="main-form__radio">
+                                    <input name="radio" value="2" type="radio" class="radio__input" id="radio-2" />
+                                    <label for="radio-2" class="radio__lebel">Не Получать рассылку</label>
+                                </div>
+                            </div>
+                            <div class="main-form__checkbox">
+                                <input name="checkbox" type="checkbox" class="checkbox_input" id="checkbox" checked/>
+                                <label for="checkbox" class="checkbox__lebel">Я соглашаюсь на обработку персональных данных</label>
+                            </div>
+                            <input class="main-form__submit" type="submit">
+                        </section>
+                        <section class="main-form-box-2">
+                            <label class="main-form__elem">
+                                <input class="main-form__surname" name="surname" type="text" placeholder="Фамилия" required>
+                            </label>
+                            <label class="main-form__elem">
+                                <input class="main-form__number" name="tel" type="tel" placeholder="Телефон" required>
+                            </label>
+                            <label class="main-form__elem">
+                                <textarea class="main-form__comment" name="comment" placeholder="Ваш комментарий"></textarea>
+                            </label>
+                            
+                        </section>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
