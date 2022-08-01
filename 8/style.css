@@ -1,0 +1,97 @@
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.bz-content *,
+.bz-content *::before,
+.bz-content *::after {
+  box-sizing: inherit;
+}
+
+.bz-border *,
+.bz-border *::before,
+.bz-border *::after {
+  box-sizing: inherit;
+}
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
+html {
+    position: relative;
+}
+html, body {
+    min-height: 100%;
+}
+body{
+    background: #aaa;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.wrapper{
+    height: 300px;
+    min-width: 1700px;
+    position: relative;
+    top: 400px;
+    left: 350px;
+    display: inline-flex;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.elem{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding-top: 20px;
+}
+.elem__img{
+    padding: 30px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.elem__footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    padding-left: 40px;
+}
+.elem__text{
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+.bz-content {
+  box-sizing: content-box;
+}
+.bz-content *,
+.bz-content *::before,
+.bz-content *::after {
+  box-sizing: inherit;
+}
+
+.bz-border {
+  box-sizing: border-box;
+}
+.bz-border *,
+.bz-border *::before,
+.bz-border *::after {
+  box-sizing: inherit;
+}
+.box {
+  border: 5px solid orange;
+  padding: 10px;
+  margin: 10px;
+  background-color: yellow;
+}
+.fix{
+  width: 330px;
+}
+.fix__elem{
+  width: 220px;
+}
+.elem_icon{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(30, 212, 30, 0.4);
+  position: relative;
+}

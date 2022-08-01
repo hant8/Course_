@@ -1,0 +1,189 @@
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.checkbox__lebel:before{
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.checkbox__lebel:after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("check.png");
+    background-size: 20px 20px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+}
+.checkbox_input:checked + .checkbox__lebel::after{
+    opacity: 1;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
+
+html {
+    position: relative;
+}
+html, body {
+    min-height: 100%;
+}
+body{
+    background: #000;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.main {
+    margin: auto;
+}
+.headar{
+    text-align: center;
+    padding: 30px 100px;
+    margin: auto;
+}
+.wrapper{
+    width: 1500px;
+    margin: 0px auto;
+}
+.footer {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.headar__text{
+    font-weight: bold;
+    color: rgba(70, 222, 70, 0.9);
+    font-size: 40px;
+}
+.main-form{
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+}
+.main-form-box-1, .main-form-box-2{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    height: 500px;
+    justify-content: space-between;
+}
+.main-form-position{
+    display: flex;
+    justify-content: space-around;
+}
+.main-form__name, .main-form__email, .main-form__time, .main-form__surname, .main-form__number, .main-form__comment{
+    background-color: #000;
+    color: white;
+    border-top: 2px solid white;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    height: 50px;
+    width: 90%;
+}
+.radio, .checkbox{
+    margin-right: 15px;
+}
+.radio-met{
+    margin-right: 55px;
+}
+.main-form__text{
+    padding-bottom: 15px;
+}
+.main-form-box-2{
+    justify-content: flex-start;
+}
+.main-form__surname, .main-form__number{
+    margin-bottom: 25px;
+}
+.main-form__comment{
+    height: 80px;
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    resize: none;
+}
+.main-form__checkbox{
+    position: relative;
+    margin-bottom: 20px;
+}
+.checkbox_input{
+    display: none;
+}
+.checkbox__lebel{
+    padding-left: 35px;
+    cursor: pointer;
+}
+
+
+.radio{
+    margin-bottom: 20px;
+}
+.main-form__radio{
+    position: relative;
+    display: inline-block;
+}
+.radio__input{
+    display: none;
+}
+.radio__lebel{
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.radio__lebel:before{
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.radio__lebel:after{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    
+
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 2;
+    opacity: 0;
+}
+.radio__input:checked + .radio__lebel::after{
+    opacity: 1;
+}
+.main-form__submit{
+    width: 155px;
+    height: 45px;
+    border-radius: 25%;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 40px;
+}

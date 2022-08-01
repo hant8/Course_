@@ -1,0 +1,123 @@
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+*{
+    position: relative;
+}
+a::selection{
+    background-color: yellow;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+html, body {
+    min-height: 100%;
+}
+body{
+    background: #ccc;
+    margin: 0;
+    padding-bottom: 100px;
+}
+main {
+    margin: auto;
+}
+.navigation__item, .navigation-footer-header__item, .footer-public__elem-email{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+.headar{
+    text-align: center;
+    padding: 30px 100px;
+    margin: auto;
+}
+.headar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo, .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.logo__text{
+    margin: 0px 0px;
+}
+.header-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.wrapper{
+    width: 1500px;
+    margin: 0px auto;
+}
+.header-main-box{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.header-main-box__name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+.header-main-button{
+    padding-top: 50px;
+}
+.main-content-header, .main-content-footer-header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main-content{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 150px;
+}
+.main-content-header__line, .main-content-footer-header__line{
+    width: 80px;
+    margin: 10px auto;
+}
+.main-content-card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+.main-content-card__title{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.main-content-card__number, .main-content__buttom{
+    margin-left: 40px;
+    padding-top: 35px;
+}
+.main-content-card-list{
+    margin-left: 40px;
+    display: flex;
+}
+.main-content-card-list__start, .main-content-card-list__start__end{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.main-content-card-food{
+    margin-left: 15px;
+}
+.main-content-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 50px;
+}
+.main-content-footer-container__elem{
+    margin: 5px 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.footer-public{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
