@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Ibarra+Real+Nova&family=Open+Sans&family=Roboto+Condensed:ital,wght@1,300;1,400;1,700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-2.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main-3.css">
+    <link rel="stylesheet" href="css/main-4.css">
+    <link rel="stylesheet" href="css/main-5.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/main-6.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>FSD</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container_">
+            <article class="aliexpress-logo"></article>
+            <div class="header-container">
+                <a href="#" class="header-container__name">ПРОВОДНИК</a>
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Как это работает</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">О компании</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Производителям</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
+                        <li class="menu__item-end"><a class="menu__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="contact">
+                <section class="address">
+                    <div class="icon-location"></div>
+                    <address class="address__text">г.Москва,ул.Улица,20 с.1</address>
+                </section>
+                <section class="tel">
+                    <div class="icon-phone"></div>
+                    <div class="tel-block">
+                        <a class="tel__number" href="tel:+71231231288">8(123) 123-12-88</a>
+                        <a class="tel__email" href="mailto:info@provodnik.ru">info@provodnik.ru</a>
+                    </div>
+                </section>
+                <article class="submit-item">
+                    <a href="#myModal" class="submit-elem btn" data-toggle="modal"><span class="submit-elem__text">Обратный звонок</span></a>
+                    <div id="myModal" class="modal" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Обратный звонок</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>               
+                                </div>
+                                <div class="modal-body">
+                                    <form method="GET" action="" class="row  needs-validation" novalidate>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustom01" class="form-label">Имя</label>
+                                            <input name="name" type="text" class="form-control" id="validationCustom01" autocomplete="on" placeholder="Как к вам обращаться" required>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustomSelect" class="form-label">Кто вы</label>
+                                            <div class="input-group">
+                                            <select name="select" class="form-select" id="validationCustomSelect" required>
+                                                <option selected disabled value="">Род деятельности</option>
+                                                <option value="1">Вариант 1</option>
+                                                <option value="2">Вариант 2</option>
+                                                <option value="3">Вариант 3</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustom03" class="form-label">Телефон</label>
+                                            <input name="tel" type="tel" class="form-control" autocomplete="on" id="validationCustom03" placeholder="+7 (123) 12-12-123" required>
+                                        </div>
+                                          <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustom09" class="form-label">Домен (если есть)</label>
+                                            <input name="domen" type="text" class="form-control" autocomplete="on" id="validationCustom09" required>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustomEmail" class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <input name="email" type="email" class="form-control" autocomplete="on" id="validationCustomEmail"  placeholder="Нужен для связи" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustom10" class="form-label label-blue">Focused state</label>
+                                            <input name="text" type="text" class="form-control border-blue" autocomplete="on" placeholder="Input caption" id="validationCustom10" required>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <div class="main-6-form-content-margin__text">Оправляя форму, вы соглашаетесь на сбор, обработку и хранение ваших данных сотрудниками компании. Политика конфиденциальности</div>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-button">
+                                            <div class="submit-item-4">
+                                                <button class="submit-elem-4 btn" type="submit"><span class="submit-elem-4__text-4">Отправить</span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="logo">
+                <span class="logo__subtitle">ЗАЙДИ НА</span>
+                <section class="logo-content">
+                    <p class="logo-content__text">Лучшее решение для небольших<br>интернет-магазинов и производителей</p>
+                    <article class="submit-item-1">
+                        <a href="#" class="submit-elem-1"><span class="submit-elem-1__text-1">Хочу на AliExpress</span></a>
+                    </article>
+                </section>
+            </section>
+        </div>
+    </header>
+    <section class="main-5">
+        <div class="container_">
+            <article class="main-5__label"></article>
+            <section class="main-5-header">
+                <article class="main-5-header__text">Чего добились с Проводником <br>другие магазины?</article>
+                <article class="main-5-header__svg"></article>
+            </section>
+            <section class="main-5-header-content">
+                <section class="container_ container-row">
+                    <section class="main-5-block-left">
+                        <article class="main-5-block-left__svg"></article>
+                    </section>
+                    <section class="main-5-block-right">
+                        <article class="main-5-block-right__title">Продвижение и раскрутка магазина одежды</article>
+                        <article class="main-5-block-right__text">Проводник ищет магазины и производителей и заводит их на маркетплейс. Уже освоил <br> алгоритм продвижения магазина и готов его применить для вашей раскрутки на маркетплейсе.</article>
+                        <section class="main-5-block-right-item">
+                            <section class="main-5-block-right-elem">
+                                <div class="main-5-block-right-elem__chislo"><div class="main-5-block-right-elem__icon"></div>765 885</div>
+                                <div class="main-5-block-right-elem__text">Законченых<br> покупок</div>
+                            </section>
+                            <section class="main-5-block-right-elem">
+                                <div class="main-5-block-right-elem__chislo"><div class="main-5-block-right-elem__icon"></div>789 654</div>
+                                <div class="main-5-block-right-elem__text">Просмотров<br> магазина</div>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="main-5-footer">
+                <article class="main-5-footer-item"><a class="main-5-footer-item__link" href="#"></a></article>
+                <article class="main-5-footer-item-active"><a class="main-5-footer-item-active__link" href="#"></a></article>
+                <article class="main-5-footer-item"><a class="main-5-footer-item__link" href="#" ></a></article>
+                <article class="main-5-footer-item"><a class="main-5-footer-item__link" href="#"></a></article>
+            </section>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container_">
+            <section class="footer-container">
+                <span class="footer-container__name">ПРОВОДНИК</span>
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Как это работает</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">О компании</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Производителям</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="contact-footer">
+                <section class="contact-footer-company">
+                    <article class="icon-uniE90B"></article>
+                    <section class="contact-footer-company-block">
+                        <span class="contact-footer-company__text-1">2018.</span>
+                        <span class="contact-footer-company__text-2">Все права защищены.</span>
+                    </section>
+                </section>
+
+                <section class="address">
+                    <article class="icon-location"></article>
+                    <article class="address__text ">г.Москва,ул.Улица,20 с.1</article>
+                </section>
+                <section class="tel">
+                    <article class="icon-phone"></article>
+                    <section class="tel-block">
+                        <a class="tel__number" href="tel:+71231231288">8(123) 123-12-88</a>
+                        <a class="tel__email" href="mailto:info@provodnik.ru">info@provodnik.ru</a>
+                    </section>
+                </section>
+                <section class="icon-facebook">
+                    <article class="icon-facebook1"></article>
+                </section>
+                <section class="submit-item">
+                    <a href="#myModal" class="submit-elem btn" data-toggle="modal"><span class="submit-elem__text">Обратный звонок</span></a>
+                </section>
+            </section>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
