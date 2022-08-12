@@ -1,0 +1,214 @@
+.wrapper-form{
+    background-color: #282828;
+    padding-bottom: 40px;
+}
+.headar-form{
+    text-align: center;
+    padding: 30px 100px;
+    margin: auto;
+}
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}
+:-moz-placeholder           {color:#fff;}
+:-ms-input-placeholder      {color:#fff;}
+.headar-form__text{
+    font-weight: bold;
+    color: #BFE142;
+    font-size: 40px;
+}
+.main-2-form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+}
+.main-2-form__name, .main-2-form__email, .main-2-form__time, .main-2-form__surname, .main-2-form__number, .main-2-form__comment{
+    background-color: #282828;
+    color: white;
+    border-bottom: 2px solid white;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    height: 50px;
+    width: 100%;
+
+}
+.main-2-form__elem, .group-block{
+   margin: 10px auto;
+    width: 43%;
+}
+.group, .group-hidden{
+    display: flex;
+    flex-direction: column;
+}
+.group-hidden{
+    padding-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+.group{
+    display: none;
+}
+.radio__lebel, .checkbox__lebel{
+    line-height: 20px;
+}
+.radio-met{
+    margin-right: 55px;
+}
+.main-2-form__text{
+    padding-bottom: 15px;
+}
+.main-2-form-box-2{
+    justify-content: flex-start;
+}
+.main-2-form__surname, .main-2-form__number{
+    margin-bottom: 25px;
+}
+
+.main-2-form__comment{
+    height: 120px;
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    resize: none;
+}
+.main-2-form__checkbox{
+    position: relative;
+    margin: 50px 0px
+
+}
+.checkbox_input{
+    display: none;
+}
+.checkbox__lebel{
+    padding-left: 35px;
+    cursor: pointer;
+}
+.checkbox__lebel:before{
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: 282828;
+    border: 1px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.checkbox__lebel:after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("check.png");
+    background-size: 20px 20px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+}
+.checkbox_input:checked + .checkbox__lebel::after{
+    opacity: 1;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+}
+.main-2-form__radio{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+.radio__input{
+    display: none;
+}
+.radio__lebel{
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.radio__lebel:before{
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: 282828;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.radio__lebel:after{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    
+
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 2;
+    opacity: 0;
+}
+.radio__input:checked + .radio__lebel::after{
+    opacity: 1;
+}
+.main-2-form__submit{
+    width: 155px;
+    height: 45px;
+    border-radius: 25%;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color:rgb(4, 4, 4,0);
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+@media (max-width:770px) {
+    .main-2-form{
+        flex-direction: column;
+    }
+    .main-2-form__elem, .group-block{
+        width: 100%;
+    }
+    .group-hidden{
+        display: none;
+    }
+    .group{
+        display:block;
+    }
+    .main-2-form__surname, .main-2-form__number{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:400px) {
+    .radio{
+        flex-direction: column;
+    }
+    .main-2-form__radio{
+        margin-bottom: 10px;
+    }
+    .headar-form{
+        padding: 20px 0px;
+    }
+    .headar-form__text{
+        font-size: 20px;
+    }
+
+}
+  
