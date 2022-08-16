@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icon';
+  src:
+    url('../fonts/icon.ttf?en17cj') format('truetype'),
+    url('../fonts/icon.woff?en17cj') format('woff'),
+    url('../fonts/icon.svg?en17cj#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-grafik:before, .icon-calc:before, .icon-bigprodaji:before, .icon-pyb:before{
+  font-size: 40px;
+  margin-right: 20px;
+}
+.icon-bigprodaji:before {
+  content: "\e905";
+  color: #651fff;
+}
+.icon-grafik:before {
+  content: "\e906";
+  color: #651fff;
+}
+.icon-calc:before {
+  content: "\e907";
+  color: #651fff;
+
+}
+.icon-phone:before {
+  content: "\e908";
+  font-size: 25px;
+  margin-right: 12px;
+}
+.icon-location:before {
+  content: "\e909";
+  font-size: 25px;
+  margin-right: 16px;
+}
+.icon-facebook1:before {
+  content: "\e90a";
+  font-size: 30px;
+}
+.icon-uniE90B:before {
+  content: "\e90b";
+  font-size: 21px;
+  margin-right: 20px;
+}
+.icon-zavodik:before {
+  content: "\e90c";
+  color: #fdbf0f;
+  font-size: 30px;
+}
+.icon-dom:before {
+  content: "\e90d";
+  color: #fdbf0f;
+  font-size: 30px;
+}
+.icon-pyb:before {
+  content: "\e910";
+  color: #651fff;
+}
+.icon-arrow:before {
+  content: "\ea3c";
+}
+
+

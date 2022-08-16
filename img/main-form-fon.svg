@@ -1,0 +1,28 @@
+<svg width="1021" height="548" viewBox="0 0 1021 548" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_500_6)">
+<rect x="24.9165" y="8" width="972.025" height="500" fill="white"/>
+</g>
+<g clip-path="url(#clip0_500_6)">
+<path d="M282 43.5988C311.493 43.5988 339.212 55.083 360.069 75.9311C380.926 96.7792 392.41 124.507 392.41 154C392.41 183.493 380.926 211.212 360.069 232.069C339.212 252.926 311.493 264.401 282 264.401C252.507 264.401 224.788 252.917 203.931 232.069C183.074 211.221 171.599 183.493 171.599 154C171.599 124.507 183.083 96.7883 203.931 75.9311C224.788 55.083 252.507 43.5988 282 43.5988ZM282 -28C181.481 -28 100 53.4814 100 154C100 254.519 181.481 336 282 336C382.519 336 464 254.519 464 154C464 53.4814 382.519 -28 282 -28Z" fill="#F5F5F5" style="mix-blend-mode:multiply"/>
+<path d="M282 91.6021C247.538 91.6021 219.601 119.539 219.601 154.001C219.601 188.462 247.538 216.399 282 216.399C316.461 216.399 344.398 188.462 344.398 154.001C344.398 119.539 316.461 91.6021 282 91.6021Z" fill="#F5F5F5" style="mix-blend-mode:multiply"/>
+</g>
+<defs>
+<filter id="filter0_dd_500_6" x="0.916504" y="0" width="1020.02" height="548" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="16"/>
+<feGaussianBlur stdDeviation="12"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_500_6"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="6"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_500_6" result="effect2_dropShadow_500_6"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_500_6" result="shape"/>
+</filter>
+<clipPath id="clip0_500_6">
+<rect width="318.664" height="313" fill="white" transform="translate(158 33)"/>
+</clipPath>
+</defs>
+</svg>

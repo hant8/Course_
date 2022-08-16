@@ -1,0 +1,147 @@
+.main-2{
+    width: 100%;
+    max-width: 1920px;
+    padding: 0px 10px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    z-index: -3;
+    background: url(../img/main-2-fon.svg);
+}
+.main-2-crug{
+    position: absolute;
+    top: 56px;
+    left: 611px;
+    width: 781px;
+    height: 664px;
+    z-index: 1;
+    background: url(../img/main-2-crug.svg);
+}
+.main-2-ruka{
+    position: absolute;
+    top: 118px;
+    left: 626px;
+    width: 588px;
+    height: 602px;
+    z-index: 2;
+    background: url(../img/ruka.svg);
+}
+.main-2-aliexpress{
+    position: absolute;
+    top: 100px;
+    left: 315px;
+    width: 142px;
+    height: 142px;
+    z-index: 3;
+    background: url(../img/Kak-zakazat-na-AliExpress.svg);
+}
+.main-2-content{
+    display: flex;
+    flex-direction: column;
+}
+.main-2-header{
+    margin-top: 70px;
+    margin-bottom: 23px;
+}
+.main-2-header__text{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: white;
+}
+.main-2-content-block{
+    width: 795px;
+    display: flex;
+    z-index: 3;
+    flex-flow: row wrap;
+}
+
+.main-2-content-block-1{
+    width: 374px;
+    height: 120px;
+    background-color: white;
+    margin-right: 22px;
+    margin-top: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 37px;
+    padding-right: 30px;
+}
+.main-2-content-block-1__elem{
+    margin-right: auto;
+}
+.main-2-button{
+    width: 316px;
+    height: 60px;
+    background: url(../img/main-2-button.svg);
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-2-button__text{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width:1210px){
+    .main-2-content-block{
+        width: 70%;
+    }
+    .main-2-content-block-1{
+        width: 45%;
+    }
+    .main-2-header{
+        margin-left: 10px;
+    }
+
+}
+@media (max-width:1100px){
+    .main-2-ruka{
+        left: 50%;
+    }
+    .main-2-aliexpress{
+        left: 54%;
+    }
+}
+@media (max-width:900px){
+    .main-2{
+        background: #7224EA;
+        height: auto;
+    }
+    .main-2-header{
+        margin-left: 0px;
+    }
+    .main-2-ruka, .main-2-crug{
+        display: none;
+    }
+    .main-2-header, .submit-item-2{
+        display: flex;
+    }
+    .main-2-content-block, .main-2-header, .submit-item-2{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .submit-item-2{
+        margin-bottom: 70px;
+    }
+}
+@media (max-width:600px){
+    .main-2-content-block-1{
+        width: 100%;
+    }
+}
+@media (max-width:400px){
+    .submit-elem-2{
+        width: 100%;
+        margin-right: 10px;
+    }
+}

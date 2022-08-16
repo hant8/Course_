@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Ibarra+Real+Nova&family=Open+Sans&family=Roboto+Condensed:ital,wght@1,300;1,400;1,700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-2.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main-3.css">
+    <link rel="stylesheet" href="css/main-4.css">
+    <link rel="stylesheet" href="css/main-5.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/main-6.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>FSD</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container_">
+            <div class="aliexpress-logo"></div>
+            <div class="header-container">
+                <a href="#" class="header-container__name">ПРОВОДНИК</a>
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Как это работает</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">О компании</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Производителям</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
+                        <li class="menu__item-end"><a class="menu__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="contact">
+                <div class="address">
+                    <div class="icon-location"></div>
+                    <address class="address__text">г.Москва,ул.Улица,20 с.1</address>
+                </div>
+                <div class="tel">
+                    <div class="icon-phone"></div>
+                    <div class="tel-block">
+                        <a class="tel__number" href="tel:+71231231288">8(123) 123-12-88</a>
+                        <a class="tel__email" href="mailto:info@provodnik.ru">info@provodnik.ru</a>
+                    </div>
+                </div>
+                <div class="submit-item">
+                    <a href="#myModal" class="submit-elem btn" data-toggle="modal"><span class="submit-elem__text">Обратный звонок</span></a>
+                    <div id="myModal" class="modal" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Обратный звонок</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>               
+                                </div>
+                                <div class="modal-body">
+                                    <form method="GET" action="" class="row  needs-validation" novalidate>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustom01" class="form-label">Имя</label>
+                                            <input name="name" type="text" class="form-control" id="validationCustom01" autocomplete="on" placeholder="Как к вам обращаться" required>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustomSelect" class="form-label">Кто вы</label>
+                                            <div class="input-group">
+                                            <select name="select" class="form-select" id="validationCustomSelect" required>
+                                                <option selected disabled value="">Род деятельности</option>
+                                                <option value="1">Вариант 1</option>
+                                                <option value="2">Вариант 2</option>
+                                                <option value="3">Вариант 3</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustom03" class="form-label">Телефон</label>
+                                            <input name="tel" type="tel" class="form-control" autocomplete="on" id="validationCustom03" placeholder="+7 (123) 12-12-123" required>
+                                        </div>
+                                          <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustom09" class="form-label">Домен (если есть)</label>
+                                            <input name="domen" type="text" class="form-control" autocomplete="on" id="validationCustom09" required>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustomEmail" class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <input name="email" type="email" class="form-control" autocomplete="on" id="validationCustomEmail"  placeholder="Нужен для связи" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <label for="validationCustom10" class="form-label label-blue">Focused state</label>
+                                            <input name="text" type="text" class="form-control border-blue" autocomplete="on" placeholder="Input caption" id="validationCustom10" required>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-margin">
+                                            <div class="main-6-form-content-margin__text">Оправляя форму, вы соглашаетесь на сбор, обработку и хранение ваших данных сотрудниками компании. Политика конфиденциальности</div>
+                                        </div>
+                                        <div class="col-5 main-6-form-content-button">
+                                            <div class="submit-item-4">
+                                                <button class="submit-elem-4 btn" type="submit"><span class="submit-elem-4__text-4">Отправить</span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <article class="logo">
+                <span class="logo__subtitle">ЗАЙДИ НА</span>
+                <div class="logo-content">
+                    <p class="logo-content__text">Лучшее решение для небольших<br>интернет-магазинов и производителей</p>
+                    <article class="submit-item-1">
+                        <a href="#" class="submit-elem-1"><span class="submit-elem-1__text-1">Хочу на AliExpress</span></a>
+                    </article>
+                </div>
+            </article>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container_">
+            <section class="main-content">
+                <div class="main-content-left">
+                    <div class="main-content-left__elem"></div>
+                    <div class="main-content-left__elem-hidden"></div>
+                    <article class="main-content-left__img"></article>
+                    <article class="main-content-left__text">Вы тратите много сил и денег на маркетинг и рекламу своих товаров. Самые эффективные из каналов — дорогие и требуют большой работы.</article>
+                </div>
+                <div class="main-content-right">
+                    <div class="main-content-right__elem"></div>
+                    <article class="main-content-right-block-1">
+                        <div class="main-content-right-block-1__subtitle">Точнее их два.</div>
+                        <div class="main-content-right-block-1-1">
+                            <div class="main-content-right-block-1-1-crug">
+                                <div class="main-content-right-block-1-1-crug__n"></div>
+                                <div class="main-content-right-block-1-1-crug__1"></div> 
+                            </div>
+                            <p class="main-content-right-block-1-1__text">Сотрудничать с существующим магазином на AliExpress и избавить себя от забот вроде вопросов колл-центра, хранения и доставки. И опять же – не тратиться на маркетинг.</p>
+                        </div>
+                    </article>
+                    <article class="main-content-right-block-2">
+                        <div class="main-content-right-block-2-crug">
+                            <div class="main-content-right-block-2-crug__n"></div>
+                            <div class="main-content-right-block-2-crug__2"></div>
+                        </div>
+                        <article class="main-content-right-block-2__text">Создать магазин на маркетплейсе AliExpress и реализовывать товары покупателям со всего мира. Один емкий и грамотный канал продаж заменит все рекламные инструменты, которыми вы пользовались до этого.</article>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+    <section class="main-2">
+        <div class="container_">
+            <div class="main-2-crug"></div>
+            <div class="main-2-ruka"><div class="main-2-aliexpress"></div></div>
+            <section class="main-2-content">
+                <div class="main-2-header"><span class="main-2-header__text">Что вы получаете с магазином <br>на AliExpress?</span></div>
+                <div class="main-2-content-block">
+                    <div class="main-2-content-block-1">
+                        <div class="icon-calc"></div>
+                        <div class="main-2-content-block-1-elem">
+                            <div class="main-2-content-block-1-elem__text">Снизите операционные расходы и расходы на маркетинг.</div>
+                        </div>
+                    </div>
+                    <div class="main-2-content-block-1">
+                        <div class="icon-grafik"></div>
+                        <div class="main-2-content-block-1__elem">Трафик из очень активных покупателей из регионов.</div>
+                    </div>
+                    <div class="main-2-content-block-1">
+                        <div class="icon-bigprodaji"></div>
+                        <div class="main-2-content-block-1__elem">Сможете реализовывать продукцию в очень больших объемах.</div>
+                    </div>
+                    <div class="main-2-content-block-1">
+                        <div class="icon-pyb"></div>
+                        <div class="main-2-content-block-1__elem">В 2020 году еще увеличите продажи за счет покупателей из стран СНГ.</div>
+                    </div>
+                </div>
+                <div class="submit-item-2">
+                    <a href="#" class="submit-elem-2"><span class="submit-elem-2__text-2">Скачать приложение</span></a>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="main-3">
+        <div class="container_">
+            <section class="main-3-content">
+                <div class="main-2-header"><span class="main-2-header__text-black">Почему выходить на AliExpress самостоятельно сложно?</span></div>
+                <div class="main-3-content-block">
+                    <article class="main-3-content-block-left">
+                        <div class="main-3-block-container">
+                            <div class="main-3-label-1"></div>
+                            <ul class="main-3-list">
+                                <li class="main-3-list__item"><span class="main-3-list__text">Китайская площадка со сложными  правилами и формулами.</span></li>
+                                <li class="main-3-list__item"><span class="main-3-list__text">Ограниченные возможности без статуса технического партнера.</span></li>
+                                <li class="main-3-list__item"><span class="main-3-list__text">Очень тяжело добиться высокого рейтинга магазинов и товаров –<br><b class="bold">главного фактора в выдаче по запросу.</b></span></li>
+                            </ul>
+                        </div>
+                        <img class="main-3-img" src="img/main-3-img.png" alt="">
+                    </article>
+                    <article class="main-3-content-block-right">
+                        <div class="main-3-label-2"></div>
+                        <div class="main-3-label-2-1"></div>
+                        <div class="main-3-block-container-2">
+                            <div class="main-3-container-left">
+                                <ul class="main-3-list main-3-list-mod">
+                                    <li class="main-3-list__item main-3-list__item-mod">
+                                        <div class="icon-ul"></div>
+                                        <span class="main-3-list__text">Берем заключение договора на себя.</span>
+                                    </li>
+                                    <li class="main-3-list__item main-3-list__item-mod">
+                                        <div class="icon-ul"></div>
+                                        <span class="main-3-list__text">Брендируем магазин.</span>
+                                    </li>
+                                    <li class="main-3-list__item-end main-3-list__item-end-mod">
+                                        <div class="icon-ul"></div>
+                                        <span class="main-3-list__text">Коннектим магазин с вашей CRM.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="main-3-container-right">
+                                <ul class="main-3-list main-3-list-mod">
+                                    <li class="main-3-list__item main-3-list__item-mod">
+                                        <div class="icon-ul"></div>
+                                        <span class="main-3-list__text fix-margin">Помогаем с описанием товаров.</span>
+                                    </li>
+                                    <li class="main-3-list__item main-3-list__item-mod">
+                                        <div class="icon-ul"></div>
+                                        <span class="main-3-list__text">Создаем аккаунт.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-3-block-container-3">
+                            <div class="main-3-block-container-3-left"></div>
+                            <div class="main-3-block-container-3-right">И главное — продвигаем в рейтинге на первые позиции в выдаче.</div>
+                        </div>
+                        <div class="submit-item-3">
+                            <a href="#" class="submit-elem-3"><span  class="submit-elem-3__text-3">Написать нам</span></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="main-3-footer">
+                <div class="container_ container-fix">
+                    <div class="main-3-footer__title">Кому интересно на AliExpress с Проводником?</div>
+                    <div class="main-3-footer-content">
+                        <article class="main-3-footer-content-left">
+                            <div class="main-3-footer-crug"><div class="icon-dom"></div></div>
+                            <div class="main-3-footer-content-block">
+                                <div class="main-3-footer-content-block__title">Небольшим интернет-магазинам</div>
+                                <div class="main-3-footer-content-block__text">С ограниченнымми ресурсами и бюджетом<br>на рекламу</div>
+                            </div>
+                        </article>
+                        <article class="main-3-footer-content-right">
+                            <div class="main-3-footer-crug"><div class="icon-zavodik"></div></div>
+                            <div class="main-3-footer-content-block">
+                                <div class="main-3-footer-content-block__title">Небольшим производителям</div>
+                                <div class="main-3-footer-content-block__text">Готовы поставлять товар реселлеру и не хотят<br>заниматься продвижением товаров конечному<br> покупателю.</div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="main-4">
+        <div class="container_">
+            <div class="main-4-fon"></div>
+            <div class="main-4-chislo-1"></div>
+            <div class="main-4-chislo-2"></div>
+            <div class="main-4-chislo-3"></div>
+            <div class="main-4-chislo-4"></div>
+            <div class="main-4-header"><span class="main-4-header__text">Как организован процесс?</span></div>
+            <div class="main-4-content-text-2">Представляет интересы мерчантов<br>и коммуницирует с площадкой по всем установочным вопросам.</div>
+            <div class="main-4-content-text-1">Проводник ищет магазины и производителей и заводит их на маркетплейс. </div>
+            <div class="main-4-content-text-3">Ищет партнеров-реселлеров<br> при необходимости и помогает наладить<br> взаимодействие.</div>
+            <div class="main-4-content-text-4">Уже освоил алгоритм<br> продвижения магазина и готов его<br> применить для вашей раскрутки<br> на маркетплейсе.</div>
+        </div>
+    </section>
+    <section class="main-5">
+        <div class="container_">
+            <div class="main-5__label"></div>
+            <div class="main-5-header">
+                <div class="main-5-header__text">Чего добились с Проводником <br>другие магазины?</div>
+                <div class="main-5-header__svg"></div>
+            </div>
+            <div class="main-5-header-content">
+                <div class="container_ container-row">
+                    <article class="main-5-block-left">
+                        <article class="main-5-block-left__svg"></article>
+                    </article>
+                    <article class="main-5-block-right">
+                        <div class="main-5-block-right__title">Продвижение и раскрутка магазина одежды</div>
+                        <div class="main-5-block-right__text">Проводник ищет магазины и производителей и заводит их на маркетплейс. Уже освоил <br> алгоритм продвижения магазина и готов его применить для вашей раскрутки на маркетплейсе.</div>
+                        <div class="main-5-block-right-item">
+                            <div class="main-5-block-right-elem">
+                                <div class="main-5-block-right-elem__chislo"><div class="main-5-block-right-elem__icon"></div>765 885</div>
+                                <div class="main-5-block-right-elem__text">Законченых<br> покупок</div>
+                            </div>
+                            <div class="main-5-block-right-elem">
+                                <div class="main-5-block-right-elem__chislo"><div class="main-5-block-right-elem__icon"></div>789 654</div>
+                                <div class="main-5-block-right-elem__text">Просмотров<br> магазина</div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="main-5-footer">
+                <div class="main-5-footer-item"><a class="main-5-footer-item__link" href="#"></a></div>
+                <div class="main-5-footer-item-active"><a class="main-5-footer-item-active__link" href="#"></a></div>
+                <div class="main-5-footer-item"><a class="main-5-footer-item__link" href="#" ></a></div>
+                <div class="main-5-footer-item"><a class="main-5-footer-item__link" href="#"></a></div>
+            </div>
+        </div>
+    </section>
+    <aside class="aside">
+        <div class="container_">
+            <div class="aside-header">Как начать?</div>
+            <div class="aside-content">
+                <article class="aside-content-elem">
+                    <div class="aside-content-elem-icon">
+                        <div class="aside-content-elem-icon-2">
+                            <span class="aside-content-elem-icon-2__item">1</span>
+                        </div>
+                    </div>
+                    <div class="aside-content-elem__text">Заполните<br> форму.</div>
+                    <div class="aside-content-elem__arrow"></div>
+                </article>
+                <article class="aside-content-elem">
+                    <div class="aside-content-elem-icon">
+                        <div class="aside-content-elem-icon-2">
+                            <span class="aside-content-elem-icon-2__item">2</span>
+                        </div>
+                    </div>
+                    <div class="aside-content-elem__text">Обсудим ваши задачи<br>с менеджером.</div>
+                    <div class="aside-content-elem__arrow"></div>
+                </article>
+                <article class="aside-content-elem">
+                    <div class="aside-content-elem-icon">
+                        <div class="aside-content-elem-icon-2">
+                            <span class="aside-content-elem-icon-2__item">3</span>
+                        </div>
+                    </div>
+                    <div class="aside-content-elem__text">Сформируем<br>пакет услуг.</div>
+                    <div class="aside-content-elem__arrow"></div>
+                </article>
+                <article class="aside-content-elem">
+                    <div class="aside-content-elem-icon">
+                        <div class="aside-content-elem-icon-2">
+                            <span class="aside-content-elem-icon-2__item">4</span>
+                        </div>
+                    </div>
+                    <div class="aside-content-elem__text">Заключим<br>договор.</div>
+                </article>
+            </div>
+        </div>
+    </aside>
+    <section class="main-6">
+        <div class="container_">
+            <section class="main-6-container">
+                <div class="main-6-form">
+                    <div class="main-6-form-crug"></div>
+                    <div class="main-6-form-fon"></div>
+                    <div class="main-6-form__header">Пожалуйста, оставьте свои контакты</div>
+                    <div class="main-6-form-content">
+                        <form method="GET" action="" class="row  needs-validation" novalidate>
+                            <div class="col-5 main-6-form-content-margin">
+                                <label for="validationCustom01s" class="form-label">Имя</label>
+                                <input name="name" type="text" class="form-control" id="validationCustom01s" autocomplete="on" placeholder="Как к вам обращаться" required>
+                            </div>
+                            <div class="col-5 main-6-form-content-margin">
+                                <label for="validationCustomSelects" class="form-label">Кто вы</label>
+                                <div class="input-group">
+                                <select name="select" class="form-select" id="validationCustomSelects" required>
+                                    <option selected disabled value="">Выберите род деятельности</option>
+                                    <option value="1">Вариант 1</option>
+                                    <option value="2">Вариант 2</option>
+                                    <option value="3">Вариант 3</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-5 main-6-form-content-margin">
+                                <label for="validationCustom03s" class="form-label">Телефон</label>
+                                <input name="tel" type="tel" class="form-control" autocomplete="on" id="validationCustom03s" placeholder="+7 (123) 12-12-123" required>
+                            </div>
+                              <div class="col-5 main-6-form-content-margin">
+                                <label for="validationCustom09s" class="form-label">Домен (если есть)</label>
+                                <input name="domen" type="text" class="form-control" autocomplete="on" id="validationCustom09s" required>
+                            </div>
+                            <div class="col-5 main-6-form-content-margin">
+                                <label for="validationCustomEmails" class="form-label">Email</label>
+                                <div class="input-group">
+                                    <input name="email" type="email" class="form-control" autocomplete="on" id="validationCustomEmails"  placeholder="Нужен для связи" required>
+                                </div>
+                            </div>
+                            <div class="col-5 main-6-form-content-margin">
+                                <label for="validationCustom10s" class="form-label label-blue">Focused state</label>
+                                <input name="text" type="text" class="form-control border-blue" autocomplete="on" placeholder="Input caption" id="validationCustom10s" required>
+                            </div>
+                            <div class="col-5 main-6-form-content-margin">
+                                <div class="main-6-form-content__text">Оправляя форму, вы соглашаетесь на сбор, обработку и хранение ваших данных сотрудниками компании. Политика конфиденциальности</div>
+                            </div>
+                            <div class="col-5 main-6-form-content-button">
+                                <div class="submit-item-4">
+                                    <button class="submit-elem-4 btn" type="submit"><span class="submit-elem-4__text-4">Отправить</span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container_">
+            <div class="footer-container">
+                <span class="footer-container__name">ПРОВОДНИК</span>
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Как это работает</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">О компании</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Производителям</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contact-footer">
+                <div class="contact-footer-company">
+                    <div class="icon-uniE90B"></div>
+                    <div class="contact-footer-company-block">
+                        <span class="contact-footer-company__text-1">2018.</span>
+                        <span class="contact-footer-company__text-2">Все права защищены.</span>
+                    </div>
+                </div>
+
+                <div class="address">
+                    <div class="icon-location"></div>
+                    <div class="address__text ">г.Москва,ул.Улица,20 с.1</div>
+                </div>
+                <div class="tel">
+                    <div class="icon-phone"></div>
+                    <div class="tel-block">
+                        <a class="tel__number" href="tel:+71231231288">8(123) 123-12-88</a>
+                        <a class="tel__email" href="mailto:info@provodnik.ru">info@provodnik.ru</a>
+                    </div>
+                </div>
+                <div class="icon-facebook">
+                    <div class="icon-facebook1"></div>
+                </div>
+                <div class="submit-item">
+                    <a href="#myModal" class="submit-elem btn" data-toggle="modal"><span class="submit-elem__text">Обратный звонок</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
